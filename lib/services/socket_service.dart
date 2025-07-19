@@ -20,7 +20,7 @@ class SocketService {
   });
 
   void connect() {
-    socket = IO.io('http://192.168.29.205:3000', {
+    socket = IO.io('http://192.168.29.***:3000', {
       'transports': ['websocket'],
       'autoConnect': false,
     });
